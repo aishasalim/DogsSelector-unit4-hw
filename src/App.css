@@ -1,0 +1,71 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+h2 {
+  margin-bottom: 3em;
+}
+img {
+  border-radius: 30px;
+}
+.temperament {
+  max-width: 60%;
+  word-wrap: break-word;
+  margin-bottom: 2em;
+}
+
+.dogсard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.button-conainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.attribute-button{
+  margin: 1em 1em 3em 2em;
+  padding: 1em;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sideNav, .history-sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  overflow-y: auto; 
+  background-color: #d2d2d2;
+  color: #1a1a1a;
+}
+
+.sideNav {
+  height: 100%;
+  width: 20%;
+  right: 0;
+  padding: 15px 15px 15px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.history-sidebar {
+  height: 100%;
+  width: 15%;
+  left: 0;
+  padding: 15px 15px 15px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
